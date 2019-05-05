@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
     "\\src\\app",
+    "\\src\\pages",
     "\\src\\pages\\edit-padaria",
     "\\src\\pages\\home",
     "\\src\\providers",
     "\\src\\providers\\database",
     "\\src\\providers\\padaria"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\src\\pages\\home\\home.ts",
   "PreviewInSolutionExplorer": false
 }

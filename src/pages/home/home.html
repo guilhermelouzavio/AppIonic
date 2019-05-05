@@ -9,7 +9,7 @@
 <ion-content padding>
   <ion-searchbar (ionInput)="filterPadarias($event)" [(ngModel)]="searchText"></ion-searchbar>
   <ion-list>
-    <ion-item-sliding *ngFor="let padarias of padarias">
+    <ion-item-sliding *ngFor="let padaria of padarias">
 
       <button ion-item (click)="editPadaria(padaria.id)">
         <h1>{{ padaria.nome }}</h1>

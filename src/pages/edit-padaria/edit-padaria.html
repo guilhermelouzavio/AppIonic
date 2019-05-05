@@ -1,0 +1,42 @@
+<ion-header>
+<ion-navbar>
+  <ion-title>
+    EPadoca
+  </ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Nome</ion-label>
+      <ion-input type="text" name="name" [(ngModel)]="model.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Endereco</ion-label>
+      <ion-input type="number" name="endereco" [(ngModel)]="model.endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Telefone</ion-label>
+      <ion-input type="number" name="telefone" [(ngModel)]="model.telefone"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input type="text" name="email" [(ngModel)]="model.email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Cnpj</ion-label>
+      <ion-input type="number" name="cnpj" [(ngModel)]="model.cnpj"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <button ion-button block (click)="save()">Salvar</button>
+
+</ion-content>
